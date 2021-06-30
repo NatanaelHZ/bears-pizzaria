@@ -1,5 +1,5 @@
 ### Bears Pizzaria
-##### Atividade pratica para Programação 2 | Curso Ciência da Computação-UFFS
+##### Atividade prática para Programação 2 | Curso Ciência da Computação-UFFS
 
 #### Projeto:
 
