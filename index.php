@@ -4,33 +4,27 @@
 	<?php include 'components/header.php'; ?>
 </head>
 <body>
-	<!-- Importar navigation aqui -->
+	<!-- Cabeçalho e navegação -->
 	<?php include 'components/navigation.php'; ?>
 
-	<section>
-	    <article>
-	        <header>
-	            <h2>O título do artigo é aqui</h2>
-	            <p>Publicado em <time datetime="2015-03-09T13:00:24+01:00">09 de Março de 2015</time> por <a href="#">Author</a> - <a href="#comments">30 comentários</a></p>
-	        </header>
-	        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	    </article>
- 
-	    <article>
-	        <header>
-	            <h2>O título do artigo é aqui</h2>
-	            <p>Publicado em <time datetime="2015-03-09T13:00:24+01:00">09 de Março de 2015</time> por <a href="#">Author</a> - <a href="#comments">15 comentários</a></p>
-	        </header>
-	        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	    </article>
-	</section>
+	<!-- Cabeçalho e navegação -->
+	<?php include 'components/banner.php'; ?>
+
+	<main>
+		<section>
+			<h1>Por que Bears pizzaria?</h1>
+			<img src="assets\img\shipping-and-delivery.png" alt="Entrega de Motoboy" height="100">
+			<img src="assets\img\application.png" alt="Pessoa Utilizando Celular" height="100">
+			<img src="assets\img\discount.png" alt="Cupom de Desconto" height="100">
+			<img src="assets\img\pizza.png" alt="Pizza Deliciosa" height="100">
+		</section>
+	</main>
  
 	<aside>
-	    <h2>Entre em contato</h2>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	  <h2>Promo do dia:</h2>
 	</aside>
  
-	<!-- Importar footer aqui -->
+	<!-- Rodapé das páginas -->
 	<?php include 'components/footer.php'; ?>
 
 </body>

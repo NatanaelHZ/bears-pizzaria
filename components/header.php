@@ -1,5 +1,9 @@
 <meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="author" content="Natanael Henrik Zago">
+<meta name="description" content="Bears Pizzaria ">
+<meta name="keywords" content="Pizza, Comida, Delicias">
+
 <title>Bears Pizzaria</title>
 
 <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-touch-icon.png">
