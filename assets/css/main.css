@@ -1,8 +1,11 @@
 body {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 1.1em;
   justify-content: center;
-  padding: 20px;
+  margin: 0;
   background: #fff;
+  overflow-x: hidden;
 }
 
 .cabecalho {
@@ -18,11 +21,12 @@ body {
 
 .logo {
   margin-left: 2em;
+  margin-top: 1em;
 }
 
 .navegacao {
   float: right;
-  margin-top: -8.8em;
+  margin-top: -7em;
   font-size: 1.1em;
   margin-right: 2em;
 }
@@ -84,6 +88,8 @@ a:hover {
   justify-content: center;
   justify-items: center;
   text-align: center;
+  margin-top: 1em;
+  margin-bottom: 4em;
 }
 
 .chips {
@@ -114,4 +120,210 @@ a:hover {
   font-size: 1.1em;
   margin-top: 20px;
   color: #423F3E;
+}
+
+.rodape {
+  background-color: #402218;
+  color: #fff;
+  display: inline-flex;
+  /*background-color: #EC4646;/*#7D5A50*/
+  height: 12em;
+  width: 100%;
+  margin: 0px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.rodape-endereco {
+  display: flex;
+  margin: 0;
+}
+
+.rodape-social {
+  display: flex;
+  margin: 0;
+}
+
+.rodape-social a {
+  color: #fff;
+  margin: 10px;
+}
+
+.promo {
+  position: fixed;
+  left: 0;
+}
+
+.precos {
+  color: #402218;
+  display: inline-flex;
+  /*background-color: #EC4646;/*#7D5A50*/
+  height: 12em;
+  width: 100%;
+  margin: 0px;
+  margin-top: 200px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.titulo-main {
+  color: #7D5A50; 
+  text-align: center; 
+  font-size: 2.2em; 
+  margin-bottom: 1em; 
+  font-weight: 900;
+}
+
+.tabela-preco {
+  border-collapse: collapse;
+  margin: 25px 0 10em 0;
+  font-size: 1.2em;
+  min-width: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.tabela-preco thead tr {
+  background-color: #267356;
+  color: #ffffff;
+  text-align: center;
+}
+
+.tabela-preco th,
+.tabela-preco td {
+  padding: 12px 15px;
+  margin-left: 10px;
+}
+
+.tabela-preco tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.tabela-preco tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.tabela-preco tbody tr:last-of-type {
+  border-bottom: 2px solid #267356;
+}
+
+.tabela-preco tbody tr.active-row {
+  font-weight: bold;
+  color: #267356;
+}
+
+.quem-somos {
+  margin-left: 5px;
+  width: 99%;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  display: inline-flex;
+}
+
+.quem-somos-item {
+  background-color: #267356;
+  color: #f3f3f3;
+  width: 30%;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 30px;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  
+}
+
+.quem-somos-item ol {
+  text-align: justify;
+}
+
+.quem-somos-item-titulo {
+  font-size: 1.6em;
+}
+
+.quem-somos-icon {
+  margin-bottom: -50px;
+}
+
+.contato {
+  margin: 50px;
+}
+
+.contato fieldset {
+  border-radius: 20px;
+  border-color: #f3f3f3;
+  margin-bottom: 40px;
+}
+
+.contato legend {
+  border-color: #e8e8e8;
+}
+
+input, select {
+	padding: 4px;
+	border: 2px solid #267356;
+	border-radius: 20px;
+  margin-bottom: 12px;
+  height: 30px;
+  font-size: 1em;
+  color: #423F3E;
+  display: inline-block;
+}
+
+.contato select {
+  height: 40px;
+  width: 41%;
+  padding-right: 10px;
+}
+
+textarea {
+  padding: 4px;
+	border: 2px solid #267356;
+	border-radius: 20px;
+  margin-bottom: 12px;
+  font-size: 1em;
+  color: #423F3E;
+  display: inline-block;
+  width:40%;
+  height:270px;
+}
+
+input:focus, select:focus, textarea:focus {
+	background-color: #f3f3f3;
+  border: 2px solid #267356;
+	border-radius: 20px;
+}
+
+input[type=submit], input[type=reset]{
+	background-color: #402218;
+  font-size: 0.8em;
+  font-weight: 700;
+	padding: 5px 10px; /* topo, direita, embaixo, esquerda */
+	border: 0;
+  border-radius: 20px;
+	color: #f3f3f3;
+  height: 40px;
+  min-width: 90px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+	background-color: #462c23;
+	border: 0;
+	color: #f3f3f3;
+}
+
+.contato details {
+  color: #462c23;
+  background-color: #e8e8e8;
+  padding: 20px;
+  border-radius: 20px;
 }

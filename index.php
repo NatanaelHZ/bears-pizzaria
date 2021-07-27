@@ -9,7 +9,7 @@
 		<?php include 'components/navigation.php'; ?>
 		<div style="margin-right: 8em; margin-top: -10em">
 			<div class="circle-1">
-				<p class="text-circle">Escolha os sabores mais deliciosos que sua mente e estômago podem Imaginar... <br>E<br> <span style="font-size: 1.3em;">Coma feito um Urso!<span></p>
+				<p class="text-circle">Escolha os sabores mais deliciosos que sua mente e estômago podem <br>Imaginar e...<br> <span style="font-size: 1.3em;">Coma feito um Urso!<span></p>
 			</div>
 		</div>
 	</div>
@@ -17,7 +17,7 @@
 	<main>
 		<section>
 			<div class="vantagens">
-				<h2 style="color: #7D5A50; text-align: center; font-size: 2.2em; margin-bottom: 50px;">Por que Bears pizzaria?</h1>
+				<h2 class="titulo-main">Por que Bears pizzaria?</h1>
 				<div class="chips">
 					<span class="chips-circlo">
 						<img class="img-chips" src="assets\img\banner\motoboy-entrega-em-casa.png" alt="Entrega de Motoboy">
@@ -40,16 +40,16 @@
 					<span class="chips-circlo">
 						<img class="img-chips" src="assets\img\banner\pizza.png" alt="Pizza Deliciosa">
 					</span>
-					<div class="chips-text">Simplementes a MELHOR Pizza que você vai experimentar...</div>
+					<div class="chips-text">Pizza com sabor simplesmente incomparável...</div>
 				</div>
 			</div>
 		</section>
 	</main>
  
-	<aside>
+	<aside class="promo">
 	  <h2>Promo do dia:</h2>
 	</aside>
- 
+
 	<!-- Rodapé das páginas -->
 	<?php include 'components/footer.php'; ?>
 
