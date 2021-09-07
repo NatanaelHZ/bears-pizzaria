@@ -1,58 +1,17 @@
-<!DOCTYPE HTML>
-<html lang="pt-br">
-<head>
-	<?php include 'components/header.php'; ?>
-</head>
-<body>
-	<div class="cabecalho">
-		<!-- Cabeçalho e navegação -->
-		<?php include 'components/navigation.php'; ?>
-		<div style="margin-right: 8em; margin-top: -10em">
-			<div class="circle-1">
-				<p class="text-circle">Escolha os sabores mais deliciosos que sua mente e estômago podem <br>Imaginar e...<br> <span style="font-size: 1.3em;">Coma feito um Urso!<span></p>
-			</div>
-		</div>
-	</div>
+<?php 
 
-	<main>
-		<section>
-			<div class="vantagens">
-				<h2 class="titulo-main">Por que Bears pizzaria?</h1>
-				<div class="chips">
-					<span class="chips-circlo">
-						<img class="img-chips" src="assets\img\banner\motoboy-entrega-em-casa.png" alt="Entrega de Motoboy">
-					</span>
-					<div class="chips-text">Entragamos quando, onde e na hora que você precisa</div>
-				</div>
-				<div class="chips">
-					<span class="chips-circlo">
-						<img class="img-chips" src="assets\img\banner\aplicativo.png" alt="Pessoa Utilizando Celular">
-					</span>
-					<div class="chips-text">Toda a praticidade de pedir do lugar onde você está</div>
-				</div>
-				<div class="chips">
-					<span class="chips-circlo">
-						<img class="img-chips" src="assets\img\banner\desconto.png" alt="Cupom de Desconto">
-					</span>	
-					<div class="chips-text">Com descontos incríveis! e preço que cabem no seu bolço</div>
-				</div>
-				<div class="chips">
-					<span class="chips-circlo">
-						<img class="img-chips" src="assets\img\banner\pizza.png" alt="Pizza Deliciosa">
-					</span>
-					<div class="chips-text">Pizza com sabor simplesmente incomparável...</div>
-				</div>
-			</div>
-		</section>
-	</main>
- 
-	<aside class="promo">
-	  <h2>Promo do dia:</h2>
-	</aside>
+include_once('views/components/open-html-pages.php'); 
+include_once('views/components/header.php'); 
+include_once('views/components/nav.php'); 
 
-	<!-- Rodapé das páginas -->
-	<?php include 'components/footer.php'; ?>
+$page = 'views/inicio.php';
 
-</body>
-</html>
-<!--https://stackoverflow.com/questions/37373608/use-php-to-reuse-common-elements-in-websitehtml-->
+if (isset($_GET['go'])) {
+  $page = 'views/' . $_GET['go'] . '.php';
+}
+
+include_once($page);
+
+include_once('views/components/final-html-pages.php');
+
+?>

@@ -1,0 +1,515 @@
+/*********************** Padronizar estilos ***********************/ 
+body {
+	font-family: 'Nunito', sans-serif;
+  background-color: #FDFEFE;
+	font-size: 1.1em;
+	margin: 0;
+	padding: 0;
+}
+
+* { 
+	box-sizing: border-box;
+} 
+
+header, footer, aside, main {
+	padding: 10px;
+}
+
+/*********************** Cores fundo ***********************/ 
+h1 {
+	color: #B3B6B7;
+}
+
+h2 {
+	color: #7B7D7D;
+}
+
+hr { 
+	  border: 0;
+    margin: 0;
+    width: 100%;
+    height: 1px;
+    background: #D7DBDD;
+}
+
+header p {
+	display: none;
+} 
+
+main p {
+	line-height: 1.5; 
+	text-align: justify;
+} 
+
+/*********************** Links ***********************/ 
+
+a {
+	text-decoration: none;
+	color: #E74C3C;
+	font-weight: 600;
+}
+
+a:link{
+	color: #E74C3C;
+}
+
+a:visited{
+	color: #E74C3C;
+}
+
+a:active{
+	color: #E74C3C;
+	border-bottom: 3px solid #E74C3C;
+}
+
+header #menu_topo a, header #menu_topo_mobile a{
+	color: #229954;	
+	font-weight: 600;	
+}
+
+/*********************** Cabeçalho ***********************/ 
+.tittle-page {
+	color: #27AE60;
+}
+
+.tittle-page hr {
+	margin-top: 8px;
+}
+.tittle-page h2 {
+	color: #27AE60;
+	display: inline-flex;
+	margin-left: 5px;
+	font-size: 1.2em;
+	padding: 2px;
+}
+
+/*********************** Cabeçalho ***********************/ 
+header {
+	background-color: #FDFEFE;
+	color: #E74C3C;
+}
+
+/*********************** Menu principal ***********************/ 
+nav {
+	background-color: #FDFEFE;
+	display: none;
+}
+
+nav ul{
+	margin: 10px 0;
+	list-style-type: none;
+	margin-bottom: 1px solid #333;
+}
+
+nav ul li {
+	/* display: inline-block; */
+	padding: 14px 16px;
+}
+
+nav a {
+	color: #E74C3C;
+}
+
+nav a:hover{
+	border-bottom: 3px solid #E74C3C;
+}
+/*********************** Menu topo ***********************/ 
+#menu_topo_mobile{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+#menu_topo{
+	display: none;
+}
+
+header{
+	position: relative;
+}
+
+/*********************** Barra lateral ***********************/ 
+aside {
+	background-color: #378970;
+  color: white;
+}
+
+/*********************** aside ***********************/ 
+aside {
+  background-color: #FDFEFE;
+  align-content: center;
+  text-align: center;
+}
+
+aside i {
+  color: #EC7063;
+}
+
+aside h3 {
+  color: #267356;
+  font-weight: 900;
+  margin: 20px 5px;
+}
+
+aside p {
+  font-size: 1.2em;
+  color: #3f3844;
+  font-weight: 700;
+}
+
+#promo {
+  border: 1px solid #BDC3C7;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 4px;
+}
+
+#price-promo {
+  display: block;
+  color: #EC7063;
+  font-size: 2em;
+  margin-top: 0.8em;
+  font-weight: 800;
+}
+
+/*********************** Tabela ***********************/ 
+
+table { 
+  border-spacing: 1; 
+  border-collapse: collapse; 
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 800px; 
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+td,th  { 
+	padding-left: 8px
+}
+
+thead tr { 
+	height: 40px;
+	background: #FFED86;
+	font-size: 14px;
+}
+
+tbody tr { 
+	height: 34px; 
+	border-bottom: 2px solid #E3F1D5;
+}
+
+table, td, th {
+	border: 1px solid #B3B6B7;
+	border-collapse: collapse;
+  padding: 8px;
+}
+
+th{
+	background-color: #E74C3C;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #FDFEFE;
+}
+
+tr:nth-child(odd){
+	background-color: #E5E7E9;
+}
+
+/*********************** Formulários ***********************/ 
+
+input, select {
+	background-color:mintcream;
+	padding: 2px;
+	border: 2px solid #27AE60;
+	border-radius: 10px;
+	margin: 5px;
+	height: 40px;
+	width: 95%;
+	font-size: 16px;
+}
+
+textarea {
+	background-color:mintcream;
+	padding: 5px;
+	border: 2px solid #27AE60;
+	border-radius: 10px;
+	margin: 5px;
+	width: 95%;
+}
+
+input[type=radio], input[type=checkbox]{
+	width: auto;
+	height: auto;
+}
+
+input:focus, select:focus, textarea:focus {
+	background-color:#F0F3F4AF;
+}
+
+input[type=submit], input[type=reset]{
+	background-color: #27AE60;
+	padding: 5px 10px; /* topo, direita, embaixo, esquerda */
+	border: 0;
+	color: white;
+	padding: 8px;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+	background-color: #58D68D;
+	border: 0;
+	color: white;
+}
+
+.erro_form {
+	color: red;
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+/*********************** home ***********************/ 
+#inicio {
+	background-image: url("../images/background.png");
+	background-size: cover;
+	width: auto;
+	height: 50vh;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*********************** Img quem somos ***********************/ 
+
+#heart{
+	float: left;
+	display: none;
+} 
+
+.clear{
+	clear: left;  
+} 
+
+/*********************** Img Logo header ***********************/ 
+#img-logo {
+  height: 14vh;
+  margin: 10px;
+}
+
+/*********************** footer ***********************/ 
+footer {
+  background-color: 	#229954;
+  grid-column: 1/4;
+  grid-row: 4/5s;
+  padding: 10px 0 0 0;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+}
+
+footer address {
+  color: #FDFEFE;
+  font-weight: 800;
+  margin: 10px 0;
+}
+
+footer {
+  color: #FDFEFE;
+}
+
+footer i {
+  color: #FDFEFE;
+}
+
+#icons-footer {
+  margin: 4px 0;
+}
+
+#end-footer {
+  background-color: #27AE60;
+  width: 100%;
+  height: 4vh;
+  bottom: 0;
+}
+
+#duvidas{
+	display: none;	 
+} 
+
+/*********************** Pedidos ***********************/ 
+#cardapio{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}  
+
+.sabor{
+	width: 400px;
+	min-height: 100px;
+	padding: 5px;
+	background-color: #eeeeee;
+	border: 1px solid #cccccc;
+	margin: 5px;
+	transition: 0.5s; /* segundos */
+}
+
+.sabor:hover{
+	box-shadow: 3px 3px 10px #27AE60;
+	transition: 0.5s;
+}
+
+.sabor img{
+	width: 80px;
+	border-radius: 40px;
+	margin: 0 20px 0 20px;
+}
+ 
+.sabor label{
+	display: flex;
+	align-items: center;
+} 
+
+.sabor_descricao{
+	display: flex;
+	flex-direction: column;
+} 
+
+.selecionado{
+	background-color: #aad3c6;
+	transition: 1s;
+}  
+
+#opcoes_pedido{
+	display: none;
+}
+
+/*********************** Desktop ***********************/ 
+@media (min-width: 820px) { 
+	.container{
+		display: grid;
+		grid-template-columns: 4fr 1fr;
+		grid-template-rows: 17vh 5vh minmax(70vh, auto) 8vh;
+	}
+
+	header{
+		grid-column: 1/3;
+		grid-row: 1/2;
+	}
+
+	nav{
+		grid-column: 1/3;
+		grid-row: 2/3;
+	}
+
+	main{
+		grid-column: 1/2;
+		grid-row: 3/4;
+	}
+
+	aside{
+		grid-column: 2/3;
+		margin: 10px;
+		grid-row: 3/4;
+	}
+
+	footer{
+		grid-column: 1/3;
+		grid-row: 4/5;
+	}
+
+	nav ul li {
+		display: inline-block;
+	}
+
+	header p {
+		color: #333;
+		font-weight: bold;
+		text-transform: capitalize;
+		text-indent: 30px;
+		letter-spacing: 5px;
+		word-spacing: 10px;
+		direction: ltr; /* left to right */ 
+		display: block; /* volta a exibir */		
+	} 	
+
+	#heart{
+		display: inline;
+	} 
+	
+	#duvidas{
+		color: black;
+		background-color: lightyellow;
+		border: 1px solid gray;
+		width: 300px;
+		height: 150px;
+		position: fixed;
+		bottom: 0;
+		right: 50px;
+		display: flex;	 
+		align-items: flex-start;	
+		justify-content: space-between;
+		padding: 2px;		
+	} 	
+
+	#duvidas .btHelp{
+		background-color: #cccccc;
+		border: 1px solid black;
+		padding: 2px 5px;
+		margin: 2px;
+		cursor: pointer;
+	}
+
+	#duvidas #botoes{
+		display: flex;
+	}
+
+	footer{
+		flex-direction: row;
+		align-items: center;
+	}
+
+	#menu_topo{
+		display: block;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		font-size: 0.9em;
+		color: #229954;
+	}
+	
+	#menu_topo_mobile{
+		display: none;
+	}
+
+	#showMenu{
+		display: none;
+	}
+
+	nav {
+		display: block;
+	}
+
+	input, select, textarea {
+		width: auto;
+	}	
+
+	#quem-somos {
+		height: 100vh;
+	}
+
+	#quem-somos h3 {
+		text-align: center;
+		color: #E74C3C;
+		font-size: 1.4em;
+		font-weight: 800;
+	}
+
+	#contato {
+		height: 180vh;
+	}
+} /* fecha a media query */
