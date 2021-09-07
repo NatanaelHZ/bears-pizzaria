@@ -275,13 +275,11 @@ input[type=submit]:hover, input[type=reset]:hover{
 
 /*********************** home ***********************/ 
 #inicio {
-	background-image: url("../images/background.png");
-	background-size: cover;
-	width: auto;
-	height: 50vh;
-	display: flex;
-  align-items: center;
-  justify-content: center;
+	background-image: url("../images/pizza-bear-band-02.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 40vh;
+	width: 100%;
 }
 
 /*********************** Img quem somos ***********************/ 
@@ -436,6 +434,16 @@ footer i {
 		direction: ltr; /* left to right */ 
 		display: block; /* volta a exibir */		
 	} 	
+
+	#inicio {
+		background-image: url("../images/pizza-bear-band-02.png");
+		background-size: cover;
+		margin-left: 20%;
+		width: 70%;
+		height: 50vh;
+		align-items: center;
+		justify-content: center;
+	}
 
 	#heart{
 		display: inline;
