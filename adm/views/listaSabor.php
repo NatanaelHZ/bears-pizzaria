@@ -1,7 +1,9 @@
 <main style="margin-top: 10px">
   <hr>
     <h2 class="tittle-page">
-    <?=$titulo?></h2>
+    <i class="fa fa-cutlery" aria-hidden="true"></i>
+      <?=$titulo?>
+    </h2>
     <hr>
     <br><br>
     <p><a style="border: 1px solid green; border-radius: 8px; padding: 5px; color: green" href="adm_sabor.php?acao=cadastra"> <i style="color: green" class="fa fa-plus" aria-hidden="true"></i> Cadastrar Novo</a></p>
